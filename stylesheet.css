@@ -1,0 +1,128 @@
+
+
+
+body {
+    background-color: #c7c7c7;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.principal img {
+    padding: 10px 20px;
+}
+.description p {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #000;
+}
+.description h1{
+    color: #000;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.principal-imagen {
+
+    background-color: #C8B7D6;
+}
+
+
+header-div {
+    background-color: rgb(240, 240, 240);
+}
+
+.profile{
+    transition-duration: 1000ms ;
+    border-radius: 50%;
+}
+
+.tarjeta {
+    width: 85%;
+    height: auto;
+    background-color: #9583B6;
+    transition-duration: 1000ms;
+    flex-direction: row;
+    padding: 15px;
+    margin-top:5px;
+}
+
+.tarjeta p {
+    font-size: 12px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.tarjeta:hover {
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;
+    transition-duration: 1000ms;
+}
+
+.contenido
+{
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    width: 100%;
+}
+.principal {
+    display: flex;
+    background-color: #dadada;
+    width: 100%;
+}
+
+.contenido-principal {
+    width: 100%;
+}
+
+.experience {
+    width: 85vw;
+    background-color: #CCCCFF;
+}
+
+.experience h2 {padding: 15px 25px;}
+
+.experience h3 {padding: 5px 25px;}
+
+.experience p {padding: 5px 25px;}
+
+.principal-imagen {
+    width: 15vw;
+}
+
+.description {
+    width: 85vw;
+    background-color: #E5D1E0;
+}
+.padre {
+    background-color: #C8B7D6;
+    width: 15vw;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1260px) {
+    .profile {width: 70% !important;}
+    .principal-imagen {width: 40vw !important;
+    }
+    .description { width: 60vw !important;}
+    .experience {width: 60vw !important;}
+    .padre {width: 40vw !important;}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .principal-imagen {width: 50% !important;
+    }
+    .description { width: 50% !important;}
+    .padre {width: 50% !important;}
+    .experience {width: 50% !important;}
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+
+    .contenido-principal {display: flex;}
+
+    .principal-imagen {width: 100vw !important;}
+
+    .description { width: 100vw !important;}
+}
